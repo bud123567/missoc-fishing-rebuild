@@ -816,10 +816,9 @@ p { margin: 0; }
   inset: 0;
   z-index: 250;
   pointer-events: none;
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='520' height='340' viewBox='0 0 520 340'><g transform='rotate(-32 260 170)' font-family='Inter,Helvetica,Arial,sans-serif' font-weight='700' font-size='23' letter-spacing='5' fill='%23808080'><text x='-60' y='70'>BUILT BY WELSCH MARKETING</text><text x='-60' y='240'>BUILT BY WELSCH MARKETING</text><text x='170' y='155'>WELSCH MARKETING</text><text x='170' y='325'>WELSCH MARKETING</text></g></svg>");
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='520' height='340' viewBox='0 0 520 340'><g transform='rotate(-32 260 170)' font-family='Inter,Helvetica,Arial,sans-serif' font-weight='700' font-size='23' letter-spacing='5' fill='%239a9a9a'><text x='-60' y='70'>BUILT BY WELSCH MARKETING</text><text x='-60' y='240'>BUILT BY WELSCH MARKETING</text><text x='170' y='155'>WELSCH MARKETING</text><text x='170' y='325'>WELSCH MARKETING</text></g></svg>");
   background-repeat: repeat;
-  mix-blend-mode: difference;
-  opacity: 0.4;
+  opacity: 0.45;
 }
 
 /* Small persistent credit in the corner */
