@@ -199,6 +199,19 @@
     });
   }
 
+  /* ------------------------------------------------- preview protection */
+  /* Deterrent only, and deliberately narrow: dragging or right-clicking a
+     photo is blocked, but text stays selectable and the keyboard still works,
+     so nothing here breaks accessibility. Anyone determined can still read the
+     source - the watermark is what actually makes the page unusable if lifted. */
+  document.addEventListener('dragstart', function (e) {
+    if (e.target && e.target.tagName === 'IMG') e.preventDefault();
+  });
+
+  document.addEventListener('contextmenu', function (e) {
+    if (e.target && e.target.tagName === 'IMG') e.preventDefault();
+  });
+
   /* ---------------------------------------------------------------- misc */
   var year = document.getElementById('year');
   if (year) year.textContent = new Date().getFullYear();
